@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+main()
+{
+int a,b,c,d;
+a=5;
+b=10;
+c=8;
+d=4;
+printf("%d! = %d|| %d > %d && %d < %d is %d",a,b,a,b,c,d, a!=b || a>b && a<d);
+getch();
+}
